@@ -1,33 +1,41 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="zh-CN">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>张三的个人主页</title>
-  <style>
-    body {
-      max-width: 800px; margin: 70px auto; padding: 0 24px;
-      font-family: system-ui, sans-serif; line-height: 1.8;
-      color: #243247; background: #f8fafc;
-    }
-    h1, h2 { color: #0f172a; }
-    a { color: #2563eb; }
-  </style>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f7f8fb">
+  <title>张云鹏 · AI 全栈开发</title>
+  <meta name="description" content="张云鹏，杭州电子科技大学控制工程硕士在读，寻找杭州 AI 应用与全栈开发实习。正在开发 zaclab 生活资料管家，连接 Vue、Java 与 Python AI 能力。">
+  <link rel="canonical" href="https://laoer12.github.io/">
+  <meta property="og:type" content="website"><meta property="og:title" content="张云鹏 · AI 全栈开发"><meta property="og:description" content="杭州电子科技大学硕士在读 · zaclab 生活资料管家 · 寻找 AI 全栈实习"><meta property="og:url" content="https://laoer12.github.io/"><meta property="og:image" content="https://laoer12.github.io/assets/portrait-editorial-v2.png">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg"><link rel="stylesheet" href="assets/style.css"><link rel="stylesheet" href="assets/portfolio-v2.css"><script src="assets/main.js" defer></script>
 </head>
-<body>
-  <h1>你好，我是张三</h1>
-  <p>欢迎来到我的个人主页！这里记录我的学习、项目与生活。</p>
-
-  <h2>关于我</h2>
-  <p>在这里填写你的学校、专业、工作或研究方向。</p>
-
-  <h2>项目与作品</h2>
-  <ul>
-    <li><a href="https://github.com/你的用户名">我的 GitHub</a></li>
-    <li>项目一：填写项目介绍</li>
-  </ul>
-
-  <h2>联系我</h2>
-  <p><a href="mailto:you@example.com">you@example.com</a></p>
+<body class="portfolio-v2">
+<a class="skip-link" href="#main">跳至主要内容</a>
+<header class="site-header"><a class="wordmark" href="./" aria-label="张云鹏，首页"><span class="wordmark-icon">云</span><span>张云鹏<span class="blue">.</span></span></a><button class="menu-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="展开导航"><span></span><span></span></button><nav id="site-nav" aria-label="主要导航"><a href="#projects">项目</a><a href="#experience">实习</a><a href="#about">关于</a><a class="nav-contact" href="#contact">联系我 <span aria-hidden="true">↗</span></a></nav></header>
+<main id="main">
+  <section class="hero-stage" aria-labelledby="hero-title">
+    <div class="hero container">
+      <div class="hero-identity"><p class="hero-greeting">你好</p><h1 id="hero-title">我是 <span class="blue">张云鹏</span></h1></div>
+      <div class="hero-copy"><p class="hero-role">AI 应用 / 全栈开发</p><p class="hero-description">杭州电子科技大学 · 控制工程硕士在读。<span class="hero-stack-line"><strong>后端</strong> Java · Spring Boot · MySQL · Redis · RocketMQ</span><span class="hero-stack-line"><strong>前端</strong> Vue 3 · TypeScript · uni-app</span><span class="hero-stack-line"><strong>AI</strong> RAG · Agent · Skill · MCP</span></p><div class="button-row"><a class="button primary" href="#projects">查看代表项目 →</a><a class="button secondary" href="https://github.com/laoer12" target="_blank" rel="noopener noreferrer">GitHub 主页 ↗</a></div><div class="hero-opportunity"><span class="status-dot"></span><span>寻找实习 · 杭州</span><a href="mailto:ypzhang03@163.com">邮件联系 ↗</a></div><ul class="availability-details" aria-label="实习安排"><li>一周内可到岗</li><li>每周 5 天</li><li>3 个月以上</li></ul></div>
+      <figure class="hero-portrait"><div class="portrait-frame"><img src="assets/portrait-editorial-v2.png" alt="根据张云鹏本人照片生成的自然职业风格肖像" width="1122" height="1402" fetchpriority="high"></div><figcaption>HANGZHOU · AI &amp; FULL-STACK</figcaption></figure>
+    </div>
+  </section>
+  <section id="projects" class="section container" aria-labelledby="projects-title"><div class="portfolio-section-heading"><div><p class="eyebrow">01 / SELECTED WORK</p><h2 id="projects-title">项目与实践<span class="blue">.</span></h2></div><p>从真实产品出发，探索 AI 能力与业务开发。</p></div>
+    <article class="featured-project">
+      <div class="featured-main">
+        <div class="project-story"><p class="project-category">代表项目 / FEATURED PROJECT</p><p class="project-status"><span class="status-dot"></span>已上线 · 持续开发中</p><h3>生活资料管家<span class="project-name">zaclab<span class="blue">.</span></span></h3><p class="project-tagline">让生活凭证，从「存着」变成「用得上」。</p><p class="project-description">把购买凭证、保修说明和维修记录关联到物品。需要时在自己的 PDF 中提问，沿页码核对原文，再把用户确认的重要日期放进提醒。</p><div class="project-links"><a class="button primary" href="projects/zaclab/">阅读完整案例 →</a><a class="button secondary" href="https://zaclab.cn/demo" target="_blank" rel="noopener noreferrer">体验产品 ↗</a></div><div class="project-tech"><span>Vue / TypeScript</span><span>Java / Spring Boot</span><span>Python / LangGraph</span></div></div>
+        <div class="project-product"><a class="real-product-shot" href="projects/zaclab/" aria-label="查看 zaclab 产品界面与项目案例"><img src="assets/zaclab-demo.webp" alt="zaclab 真实公开演示界面：物品档案、关联资料和近期到期事项，内容均为虚构示例" width="1360" height="900" loading="lazy"></a><div class="product-shot-caption"><span><i class="status-dot"></i>REAL PRODUCT · WEB</span><a href="https://zaclab.cn/demo" target="_blank" rel="noopener noreferrer">打开演示 ↗</a></div>
+          <div class="product-loop"><p class="mini-label">PRODUCT LOOP / 使用流程</p><ol><li><span>01</span>归档</li><li><span>02</span>关联</li><li class="loop-highlight"><span>03</span>提问</li><li><span>04</span>核对</li><li><span>05</span>提醒</li></ol><p class="loop-note">回答保留页码出处；重要日期经用户确认后进入到期事项。</p></div>
+        </div>
+      </div>
+      <div class="featured-evidence"><div><strong>30<span>题</span></strong><p>固定问答评测</p></div><div><strong>5<span>份</span></strong><p>配套虚构 PDF</p></div><div><strong>3<span>层</span></strong><p>前端 · 业务 · AI 服务</p></div><a href="projects/zaclab/#evaluation">查看验证记录与边界 →</a></div>
+      <div class="engineering-grid"><div><span class="engineering-number">01</span><h4>Evidence</h4><strong>答案可以回到原文</strong><p>引用携带文档、页码和解析版本，支持从回答核对资料。</p></div><div><span class="engineering-number">02</span><h4>Boundaries</h4><strong>业务服务负责边界</strong><p>Java 校验身份、资料归属和版本，再转发授权正文。</p></div><div><span class="engineering-number">03</span><h4>Streaming</h4><strong>成功与失败都有状态</strong><p>流式展示、停止、超时和截断分别处理，会话保存终态。</p></div><div><span class="engineering-number">04</span><h4>Evaluation</h4><strong>改动前后有据可查</strong><p>冻结资料和题目，保留真实回答，区分引用合法与事实正确。</p></div></div>
+    </article>
+    <article class="learning-project"><div class="learning-mark" aria-hidden="true">R<span>↗</span></div><div><p class="mini-label">开源学习 / OPEN-SOURCE STUDY</p><h3>Ragent 智能知识库问答</h3><p>围绕文档入库、问题改写、会话记忆与排队机制学习 RAG 应用，梳理实现流程，准备自己的改造与验证记录。</p><div class="inline-tags"><span>Java</span><span>RAG</span><span>PostgreSQL</span><span>Redis</span></div></div><a class="quiet-link" href="https://github.com/nageoffer/ragent" target="_blank" rel="noopener noreferrer">开源项目 ↗</a></article>
+  </section>
+  <section id="experience" class="experience-section" aria-labelledby="experience-title"><div class="container experience-grid"><div class="experience-copy"><p class="eyebrow">02 / EXPERIENCE</p><h2 id="experience-title">我的邵阳<br>城市生活服务平台</h2><div class="experience-meta"><strong>杭州领度科技有限公司</strong><span>全栈开发实习生 · 2026.07 — 2026.09</span></div><p>面向市民、商户和企业的多端城市生活服务平台，包含 C 端、商户端、企业端和运营管理端，覆盖本地消费、文旅活动、企业福利与消费券等业务。</p><div class="experience-scope"><p class="mini-label">项目工作与技术实践</p><p class="experience-summary">围绕文旅服务、发票、消息通知与交易链路，积累业务开发与工程实践。</p><ul class="experience-work"><li><h3>发票管理</h3><p>企业端与商户端开票流程开发，串联账单生成、申请开票、分批登记和状态流转；通过事务、状态条件更新与已开金额 CAS 校验处理重复申请和并发超开，并保留发票抬头快照。</p></li><li><h3>文旅与景区服务</h3><p>景区数据层、C 端聚合接口与 uni-app 列表、详情页开发；使用批量 IN 查询和 Map 组装分类、图片、票种及开放时间，支持定位排序、地图导航和收藏状态同步。</p></li><li><h3>消息通知</h3><p>参与策略处理器注册、模板参数校验与 RocketMQ 消费链路适配；退款通知按订单号与退款流水号区分幂等粒度，事务提交后异步发送，隔离通知与退款主流程。</p></li><li><h3>消费券活动</h3><p>参与上线准备、接口耗时排查和技术复盘，梳理 Redis Lua 扣库存、MQ 异步发券、幂等控制与失败补偿链路。</p></li><li><h3>交易与一致性</h3><p>支付回调验签、重复通知幂等处理、订单状态流转、事务控制与异步消息通知。</p></li></ul></div><p class="experience-stack">Java · Spring Boot · MyBatis-Plus · MySQL · Redis · RocketMQ · Vue 3 · TypeScript · uni-app</p><p class="image-note">产品首页，涵盖文旅、本地消费、商户入驻和职工福利等业务场景。</p></div><figure class="experience-figure"><div class="phone-frame"><img src="assets/shaoyang-home.jpg" alt="我的邵阳产品首页，包含景区景点、酒店预定、职工福利等业务入口" width="1206" height="2622" loading="lazy"></div><figcaption><span>我的邵阳</span><span>产品首页 / 实习项目</span></figcaption></figure></div></section>
+  <section id="about" class="section container about-grid" aria-labelledby="about-title"><div class="about-intro"><p class="eyebrow">03 / ABOUT ME</p><h2 id="about-title">关注 AI，也关注<br>完整的开发过程。</h2><p>从控制工程的学习走向软件开发，我希望把模型能力放进真实的使用流程里：页面能操作，接口有边界，答案能追溯，服务能运行。</p><p>技术栈覆盖 Java 后端、Vue 前端与 AI 应用，包括数据库、缓存、消息队列，以及 RAG、Agent、Skill 与 MCP。zaclab 是我连接业务开发与 AI 能力的主要实践。</p><div class="education"><div><strong>杭州电子科技大学</strong><p>控制工程 · 硕士在读</p><time>2025.09 — 2028.07</time></div><div><strong>浙江科技大学</strong><p>自动化 · 本科</p><time>2021.09 — 2025.07</time></div></div></div><div class="skills-list" aria-label="技术栈与工程能力"><div><span>01</span><h3>AI 前端与交互</h3><p>Vue 3 · TypeScript · Element Plus · uni-app<br>AI 应用界面、流式交互与移动端适配</p></div><div><span>02</span><h3>后端与数据</h3><p>Java · Spring Boot · MyBatis-Plus<br>MySQL · Redis · RocketMQ<br>接口、缓存、消息队列、事务与高并发</p></div><div><span>03</span><h3>AI 应用</h3><p>RAG · Agent · Skill · MCP<br>知识库问答、工具调用与模型接入</p></div><div><span>04</span><h3>部署与迭代</h3><p>Git · Docker · Nginx · Linux<br>构建、HTTPS 部署与问题排查</p></div></div></section>
+  <section id="contact" class="container contact-section" aria-labelledby="contact-title"><div><p class="eyebrow">04 / LET’S CONNECT</p><h2 id="contact-title">一起把产品做出来。</h2><p>寻找杭州 AI 应用 / 全栈开发实习。<br>一周内可到岗 · 每周 5 天 · 可实习 3 个月以上</p></div><div class="contact-actions"><a class="contact-email" href="mailto:ypzhang03@163.com">ypzhang03@163.com <span aria-hidden="true">↗</span></a><div class="contact-secondary"><button class="copy-email" type="button" data-email="ypzhang03@163.com">复制邮箱</button><a href="https://github.com/laoer12" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div><p id="copy-status" role="status" aria-live="polite"></p></div></section>
+</main>
+<footer class="site-footer container"><span>© 2026 张云鹏</span><span>Hangzhou, China</span><a href="#main">回到顶部 ↑</a></footer>
 </body>
 </html>
